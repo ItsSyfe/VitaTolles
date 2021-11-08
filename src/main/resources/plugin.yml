@@ -1,0 +1,15 @@
+name: VitaTolles
+version: '${project.version}'
+main: me.syfe.vitatolles.VitaTolles
+api-version: 1.17
+authors: [ Syfe, Github Copilot ]
+description: Similar to LifeSteal SMP, this plugin allows players to steal hearts from others in PvP and lose hearts from dying to natural causes.
+
+commands:
+  giveheart:
+    usage: /giveheart <player>
+    description: Gives a player a heart.
+  sethealth:
+    usage: /sethealth <player> <amount>
+    description: Set the amount of hearts a player has.
+    permission: vitatolles.managehearts
